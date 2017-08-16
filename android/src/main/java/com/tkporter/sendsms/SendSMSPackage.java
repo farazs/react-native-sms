@@ -28,7 +28,7 @@ public class SendSMSPackage implements ReactPackage {
         return Arrays.<NativeModule>asList(sendSms);
     }
 
-    @Override
+    // Deprecated RN 0.47
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
